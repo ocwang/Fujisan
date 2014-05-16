@@ -1,10 +1,3 @@
-#under-construction-alert {
-	position: absolute;
-	top: 10px;
-	left: 20%;
-	z-index: 1000;
-}
-
 /*
 --------------------------------------------------------------
 Header
@@ -40,6 +33,7 @@ Navigation Bar
 	font-family: 'Pathway Gothic One', sans-serif;
 	font-size: 28px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	text-transform: uppercase;
 }
 
 /*Centers navigation on bigger screens while preserving styling on nav for smaller screens*/
@@ -53,7 +47,6 @@ Navigation Bar
 	#navigation li {
 		display: table-cell;
 		padding: 0px 10px;
-		text-transform: uppercase;
 		color: #000000;
 	}
 
@@ -393,6 +386,66 @@ Misc.
 
 /*
 --------------------------------------------------------------
+Content Header
+--------------------------------------------------------------
+*/
+
+@media (min-width: 768px) {
+	#content-header {
+		padding-top: 60px;
+		padding-bottom: 60px;
+		font-size: 24px;
+		text-align: left;
+	}
+}
+
+#content-header {
+	position: relative;
+	padding: 30px 15px;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 0 1px 0 rgba(0,0,0,.1);
+	width: 100%;
+	background-image: url('../img/red-bg_opt.jpg');
+	background-position: top center;
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+#content-header h1 {
+    margin-top: 0;
+    color: #fff;
+}
+
+@media (min-width:768px) { 
+    #content-header {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        font-size: 24px;
+        text-align: left;
+    }
+    #content-header h1 {
+        font-size: 60px;
+        line-height: 1;
+    }
+}
+
+/*
+--------------------------------------------------------------
+Content Footer
+--------------------------------------------------------------
+*/
+
+#content-footer {
+    margin-top: 150px;
+    padding-top: 80px;
+    background-image: url('../img/bg-canvas-black.png');
+    background-repeat: repeat;
+    background-position: left top;
+}
+
+/*
+--------------------------------------------------------------
 Leftover Code Scraps
 --------------------------------------------------------------
 */
@@ -412,3 +465,178 @@ Leftover Code Scraps
 	height: 10px;
 	width: 100%;
 }
+
+/*
+--------------------------------------------------------------
+Menu
+--------------------------------------------------------------
+*/
+
+/*
+--------------------------------------------------------------
+Menu Affix
+--------------------------------------------------------------
+*/
+
+.menu-sidebar.affix {
+    position: static
+}
+
+@media (min-width:768px) { 
+    .menu-sidebar {
+        padding-left: 20px
+    }
+}
+
+.menu-sidebar .nav>li>a {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #999;
+    padding: 4px 20px;
+}
+.menu-sidebar .nav>li>a:hover,
+.menu-sidebar .nav>li>a:focus {
+    padding-left: 19px;
+    color: #8C001A;
+    text-decoration: none;
+    background-color: transparent;
+    border-right: 1px solid #8C001A;
+}
+.menu-sidebar .nav>.active>a,
+.menu-sidebar .nav>.active:hover>a,
+.menu-sidebar .nav>.active:focus>a {
+    padding-left: 18px;
+    font-weight: 700;
+    color: #8C001A;
+    background-color: transparent;
+    border-right: 2px solid #8C001A;
+}
+.menu-sidebar .nav .nav {
+    display: none;
+    padding-bottom: 10px;
+}
+.menu-sidebar .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.menu-sidebar .nav .nav>li>a:hover,
+.menu-sidebar .nav .nav>li>a:focus {
+    padding-left: 29px
+}
+.menu-sidebar .nav .nav>.active>a,
+.menu-sidebar .nav .nav>.active:hover>a,
+.menu-sidebar .nav .nav>.active:focus>a {
+    font-weight: 500;
+    padding-left: 28px;
+}
+.back-to-top {
+    display: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #999;
+}
+.back-to-top:hover {
+    text-decoration: none;
+    color: #8C001A;
+}
+@media (min-width:768px) { 
+    .back-to-top {
+        display: block
+    }
+}
+@media (min-width:992px) { 
+    .menu-sidebar .nav>.active>ul {
+        display: block
+    }
+    .menu-sidebar.affix,
+    .menu-sidebar.affix-bottom {
+        width: 213px
+    }
+    .menu-sidebar.affix {
+        position: fixed;
+        top: 20px;
+    }
+    .menu-sidebar.affix-bottom {
+        position: absolute
+    }
+    .menu-sidebar.affix-bottom .menu-sidenav,
+    .menu-sidebar.affix .menu-sidenav {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+@media (min-width:1200px) { 
+    .menu-sidebar.affix-bottom,
+    .menu-sidebar.affix {
+        width: 263px
+    }
+}
+
+.menu-sidenav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (min-width:992px) { 
+    #menu-nav-container {
+        padding-top: 81px;
+    }
+}
+
+/*
+--------------------------------------------------------------
+Menu Section Header
+--------------------------------------------------------------
+*/
+
+.menu-section-header {
+    padding-bottom: 9px;
+    margin: 10px 0 20px;
+    border-bottom: 3px solid #8C001A;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-section-header h1 {
+    margin-bottom: 0;
+    font-size: 40px;
+    margin-top: 10px;  
+}
+
+.menu-section-header p {
+    margin-bottom: 0;
+}
+
+/*
+--------------------------------------------------------------
+Menu Items
+--------------------------------------------------------------
+*/
+
+.menu-item p {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.menu-item {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+
+.menu-section-last-row .menu-item{
+    border-bottom: 0;
+}
+
+.menu-item-lunch-price p {
+    margin-right: 40px;
+    font-weight: normal;
+}
+
