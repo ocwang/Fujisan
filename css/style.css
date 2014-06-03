@@ -639,3 +639,93 @@ Menu Items
     font-weight: normal;
 }
 
+/*
+--------------------------------------------------------------
+Experience
+--------------------------------------------------------------
+*/
+
+/*
+--------------------------------------------------------------
+Experience Content
+--------------------------------------------------------------
+*/
+
+#experience-content {
+	padding-top: 10px;
+	padding-bottom: 0;	
+}
+
+#experience-content .col-sm-4 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#experience-content img {
+	margin-bottom: 10px;
+	border-top: 2px solid #8C001A;
+	border-bottom: 2px solid #8C001A;
+}
+
+/*
+--------------------------------------------------------------
+Experience Callout
+--------------------------------------------------------------
+*/
+
+#experience-callout {
+	position: relative;
+	z-index: 999;
+	font-family: 'Raleway', sans-serif;
+
+	background-image: url('/img/bg-canvas-black.png');
+	background-repeat: repeat;
+	background-position: left top;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+	color: #ffffff;
+	background-color: #202020;
+}
+
+#experience-callout h1 {
+	font-size: 50px;
+	margin-bottom: 5px;
+}
+
+#experience-callout h2 {
+	font-size: 22px;
+	margin-top: 0;
+}
+
+#experience-callout strong {
+	color: #8C001A;
+	text-transform: uppercase;
+}
+
+@media (min-width:768px) { 
+	#experience-callout {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+
+	#experience-callout h1 {
+		font-size: 60px;
+	}	
+	#experience-callout h2 {
+		font-size: 26px;
+	}	
+}
+@media (min-width:992px) { 
+	#experience-callout {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	#experience-callout h1 {
+		font-size: 80px;
+	}
+	#experience-callout h2 {
+		font-size: 36px;
+	}
+}
