@@ -436,7 +436,7 @@ Content Footer
 */
 
 #content-footer {
-    margin-top: 150px;
+    margin-top: 90px;
     padding-top: 80px;
     background-image: url('../img/bg-canvas-black.png');
     background-repeat: repeat;
@@ -728,4 +728,77 @@ Experience Callout
 	#experience-callout h2 {
 		font-size: 36px;
 	}
+}
+
+/*
+--------------------------------------------------------------
+Location
+--------------------------------------------------------------
+*/
+
+/*
+--------------------------------------------------------------
+Location Main Content
+--------------------------------------------------------------
+*/
+
+#location-content {
+	padding-top: 30px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#location-content h1 {
+	margin-top: 0;
+	border-bottom: 4px solid #8C001A;
+	padding-bottom: 2px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	#location-content h1 {
+		font-size: 40px;
+	}
+}
+
+#location-text {
+	padding-bottom: 10px;
+}
+
+/*
+--------------------------------------------------------------
+Location Google Map
+--------------------------------------------------------------
+*/
+
+#location-content #gmap_canvas {
+	height: 300px;
+}
+
+@media (min-width: 768px) {
+	#location-content #gmap_canvas {
+		height: 600px;
+	}
+}
+
+@media (min-width: 992px) {
+	#location-content #gmap_canvas {
+		height: 490px;
+	}
+}
+
+/*
+--------------------------------------------------------------
+Careers Content
+--------------------------------------------------------------
+*/
+
+#careers-content {
+	padding-top: 30px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#careers-content h2 {
+	margin-top: 0;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #8C001A;
 }
