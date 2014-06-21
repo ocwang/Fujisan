@@ -103,7 +103,7 @@ Navigation Bar
 .navbar-default .navbar-nav>li>a:hover {
 	color: #8C001A;
 	border-bottom: 5px solid #8C001A;
-	
+
 	/*Fade-in animation*/
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
@@ -141,14 +141,14 @@ Layerslider
 	font-size: 26px;
 
 	/*Red background box*/
-	border-top-left-radius: 4px; 
-	border-top-right-radius: 4px; 
-	border-bottom-right-radius: 4px; 
-	border-bottom-left-radius: 4px; 
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
 	background: #8C001A;
 	padding: 0px 10px;
 	height: 37px;
-	line-height: 37px;	
+	line-height: 37px;
 }
 
 /*
@@ -162,7 +162,7 @@ Main Content
 	z-index: 998;
 
 	padding-top: 35px;
-	padding-bottom: 45px;	
+	padding-bottom: 45px;
 }
 
 .callout h2 {
@@ -201,7 +201,7 @@ Restaurant Details
 --------------------------------------------------------------
 */
 
-/* Grey color font: cd201f */ 
+/* Grey color font: cd201f */
 #restaurant-details {
 	position: relative;
 	z-index: 999;
@@ -212,7 +212,7 @@ Restaurant Details
 
 	padding-top: 35px;
 	padding-bottom: 45px;
-	
+
 	color: #ffffff;
 	background-color: #202020;
 }
@@ -234,11 +234,11 @@ Restaurant Details
 		padding-top: 15px;
 		margin-top: 15px;
 		font-size: 36px;
-	}	
+	}
 }
 
 .hours p {
-	margin-bottom: 0;	
+	margin-bottom: 0;
 }
 
 
@@ -285,7 +285,7 @@ Social Media Links
 
 @media (max-width: 768px) {
 	#social-media {
-		display: none; 
+		display: none;
 	}
 }
 
@@ -370,13 +370,13 @@ Misc.
 .top-div-shadow {
 	-moz-box-shadow: 0 -5px 30px rgba(0,0,0,1);
 	-webkit-box-shadow: 0 -5px 30px rgba(0,0,0,1);
-	box-shadow: 0 -5px 30px rgba(0,0,0,1);	
+	box-shadow: 0 -5px 30px rgba(0,0,0,1);
 }
 
 .bot-div-shadow {
 	-moz-box-shadow: 0 5px 30px rgba(0,0,0,1);
 	-webkit-box-shadow: 0 5px 30px rgba(0,0,0,1);
-	box-shadow: 0 5px 30px rgba(0,0,0,1);	
+	box-shadow: 0 5px 30px rgba(0,0,0,1);
 }
 
 .red-border-top {
@@ -416,7 +416,7 @@ Content Header
     color: #fff;
 }
 
-@media (min-width:768px) { 
+@media (min-width:768px) {
     #content-header {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -481,7 +481,7 @@ Menu Affix
     position: static
 }
 
-@media (min-width:768px) { 
+@media (min-width:768px) {
     .menu-sidebar {
         padding-left: 20px
     }
@@ -545,12 +545,12 @@ Menu Affix
     text-decoration: none;
     color: #8C001A;
 }
-@media (min-width:768px) { 
+@media (min-width:768px) {
     .back-to-top {
         display: block
     }
 }
-@media (min-width:992px) { 
+@media (min-width:992px) {
     .menu-sidebar .nav>.active>ul {
         display: block
     }
@@ -571,7 +571,7 @@ Menu Affix
         margin-bottom: 0;
     }
 }
-@media (min-width:1200px) { 
+@media (min-width:1200px) {
     .menu-sidebar.affix-bottom,
     .menu-sidebar.affix {
         width: 263px
@@ -583,7 +583,7 @@ Menu Affix
     margin-bottom: 20px;
 }
 
-@media (min-width:992px) { 
+@media (min-width:992px) {
     #menu-nav-container {
         padding-top: 81px;
     }
@@ -605,7 +605,7 @@ Menu Section Header
 .menu-section-header h1 {
     margin-bottom: 0;
     font-size: 40px;
-    margin-top: 10px;  
+    margin-top: 10px;
 }
 
 .menu-section-header p {
@@ -653,7 +653,7 @@ Experience Content
 
 #experience-content {
 	padding-top: 10px;
-	padding-bottom: 0;	
+	padding-bottom: 0;
 }
 
 #experience-content .col-sm-4 {
@@ -683,7 +683,7 @@ Experience Callout
 	background-position: left top;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	
+
 	color: #ffffff;
 	background-color: #202020;
 }
@@ -703,7 +703,7 @@ Experience Callout
 	text-transform: uppercase;
 }
 
-@media (min-width:768px) { 
+@media (min-width:768px) {
 	#experience-callout {
 		padding-top: 70px;
 		padding-bottom: 70px;
@@ -711,12 +711,12 @@ Experience Callout
 
 	#experience-callout h1 {
 		font-size: 60px;
-	}	
+	}
 	#experience-callout h2 {
 		font-size: 26px;
-	}	
+	}
 }
-@media (min-width:992px) { 
+@media (min-width:992px) {
 	#experience-callout {
 		padding-top: 80px;
 		padding-bottom: 80px;
@@ -802,3 +802,10 @@ Careers Content
 	padding-bottom: 5px;
 	border-bottom: 2px solid #8C001A;
 }
+
+/*
+--------------------------------------------------------------
+Coupons Content
+--------------------------------------------------------------
+*/
+
